@@ -1,0 +1,118 @@
+body {
+    background: #ae07f0;  /* fallback for old browsers */
+    
+}
+
+.navClass {
+    width: 80%;
+    margin: 60px auto;
+    background: #970778;
+    text-align: center;
+    border: 1px solid #970778 ;
+    border-radius: 4px;
+}
+
+
+table {
+    width: 80%;
+    margin: 60px auto;
+    background:rgb(238, 8, 169),rgb(238, 8, 169) , rgb(238, 8, 169);
+}
+
+table.list {
+    text-align: center;
+    width: 30%;
+    padding: 1em 2;
+    text-align: center;
+}
+
+td {
+    border: 6px solid rgb(236, 63, 164);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+tr:nth-child(even), table.list thread> tr{
+    background-color:rgb(236, 63, 164) ;
+}
+
+/* para boton de reset */
+input[type="text"],input[type="number"]{
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(236, 63, 164);
+    border-radius: 4px;
+}
+
+/* para estilo del boton reset */
+input[type="submit"],input[type="reset"]{
+    background: rgb(233, 7, 203);
+    padding: 6px 20px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background: rgb(224, 149, 224);
+}
+
+input[type="reset"]:hover{
+    background: rgb(212, 148, 218);
+}
+
+button {
+    background:rgb(233, 7, 203) ;
+    padding: 6px 20px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background:rgb(212, 148, 218) ;
+}
+
+/* Responsive */
+@media screen and (max-width:830px) {
+    form {
+        width: 100%;
+    }
+    
+}
+
+/*Footer*/
+.footer {
+    background-color: #970778;
+    padding: 0em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+/*Botones redes sociales Footer*/
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: .6s ease all;
+}
+
+.fa-brands:hover{
+  transform: scale(3);
+  color: rgb(100, 55, 102);
+}
